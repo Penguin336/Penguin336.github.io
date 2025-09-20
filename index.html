@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Trang web mẫu của tôi</title>
-  <meta name="description" content="Trang web mẫu để thực hành GitHub Pages với HTML cơ bản." />
+  <title>Đại học FPT</title>
+  <meta name="description" content="Trang web mẫu giới thiệu Đại học FPT." />
 </head>
 <body>
   <header>
-    <h1>Xin chào! Đây là trang web đầu tiên của tôi</h1>
+    <h1>Đại học FPT</h1>
     <nav>
       <ul>
         <li><a href="#gioi-thieu">Giới thiệu</a></li>
-        <li><a href="#anh">Bộ sưu tập ảnh</a></li>
+        <li><a href="#chuong-trinh">Chương trình đào tạo</a></li>
+        <li><a href="#hinh-anh">Hình ảnh</a></li>
         <li><a href="#tai-nguyen">Tài nguyên</a></li>
       </ul>
     </nav>
@@ -21,45 +22,60 @@
   <main>
     <section id="gioi-thieu">
       <h2>Giới thiệu</h2>
-      <p>Đây là một trang web ví dụ được tạo để thực hành lưu trữ trên GitHub Pages.</p>
-      <h3>Danh sách ví dụ</h3>
+      <p>
+        Đại học FPT là một trong những trường đại học hàng đầu tại Việt Nam,
+        nổi bật với định hướng đào tạo gắn liền với doanh nghiệp, chương trình
+        quốc tế hóa và môi trường học tập năng động.
+      </p>
+    </section>
+
+    <section id="chuong-trinh">
+      <h2>Chương trình đào tạo</h2>
       <ul>
-        <li>Ví dụ 1: Sự thật về Michigan</li>
-        <li>Ví dụ 2: Phim</li>
-        <li>Ví dụ 3: So sánh máy tính xách tay</li>
+        <li>Công nghệ thông tin</li>
+        <li>Quản trị kinh doanh</li>
+        <li>Thiết kế đồ họa</li>
+        <li>Ngôn ngữ Nhật, Hàn, Anh</li>
+        <li>Truyền thông đa phương tiện</li>
       </ul>
     </section>
 
-    <section id="anh">
-      <h2>Bộ sưu tập ảnh</h2>
+    <section id="hinh-anh">
+      <h2>Hình ảnh</h2>
 
       <figure>
-        <img src="https://picsum.photos/seed/michigan/600/400" alt="Cảnh hồ Michigan với mặt nước và cây xanh" width="600" height="400">
-        <figcaption>Ảnh minh họa: Hồ Michigan</figcaption>
+        <img src="https://fpt.edu.vn/images/front/fpt-university.jpg" 
+             alt="Khuôn viên Đại học FPT Hà Nội nhìn từ trên cao" 
+             width="600" height="400">
+        <figcaption>Khuôn viên Đại học FPT Hà Nội</figcaption>
       </figure>
 
       <figure>
-        <img src="https://picsum.photos/seed/movie/600/400" alt="Poster phim giả tưởng đầy màu sắc neon" width="600" height="400">
-        <figcaption>Ảnh minh họa: Poster phim</figcaption>
+        <img src="https://daihoc.fpt.edu.vn/wp-content/uploads/2022/05/fpt-danang.jpg" 
+             alt="Cơ sở Đại học FPT tại Đà Nẵng với kiến trúc hiện đại" 
+             width="600" height="400">
+        <figcaption>Cơ sở Đà Nẵng</figcaption>
       </figure>
 
       <figure>
-        <img src="https://picsum.photos/seed/laptop/600/400" alt="Hai chiếc laptop đặt cạnh nhau để so sánh" width="600" height="400">
-        <figcaption>Ảnh minh họa: So sánh laptop</figcaption>
+        <img src="https://daihoc.fpt.edu.vn/wp-content/uploads/2022/05/fpt-hochiminh.jpg" 
+             alt="Cơ sở Đại học FPT tại TP.HCM" 
+             width="600" height="400">
+        <figcaption>Cơ sở TP. Hồ Chí Minh</figcaption>
       </figure>
     </section>
 
     <section id="tai-nguyen">
       <h2>Tài nguyên bên ngoài</h2>
-      <p>Bạn có thể tham khảo thêm tại:</p>
-      <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
-        W3C HTML Validator
+      <p>Để biết thêm thông tin, vui lòng truy cập trang chính thức:</p>
+      <a href="https://daihoc.fpt.edu.vn/" target="_blank" rel="noopener noreferrer">
+        Trang chủ Đại học FPT
       </a>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Trang web mẫu của tôi</p>
+    <p>© <span id="year"></span> Đại học FPT — Trang web mẫu</p>
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
