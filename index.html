@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trang web mẫu của tôi</title>
+  <meta name="description" content="Trang web mẫu để thực hành GitHub Pages với HTML cơ bản." />
+</head>
+<body>
+  <header>
+    <h1>Xin chào! Đây là trang web đầu tiên của tôi</h1>
+    <nav>
+      <ul>
+        <li><a href="#gioi-thieu">Giới thiệu</a></li>
+        <li><a href="#anh">Bộ sưu tập ảnh</a></li>
+        <li><a href="#tai-nguyen">Tài nguyên</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gioi-thieu">
+      <h2>Giới thiệu</h2>
+      <p>Đây là một trang web ví dụ được tạo để thực hành lưu trữ trên GitHub Pages.</p>
+      <h3>Danh sách ví dụ</h3>
+      <ul>
+        <li>Ví dụ 1: Sự thật về Michigan</li>
+        <li>Ví dụ 2: Phim</li>
+        <li>Ví dụ 3: So sánh máy tính xách tay</li>
+      </ul>
+    </section>
+
+    <section id="anh">
+      <h2>Bộ sưu tập ảnh</h2>
+
+      <figure>
+        <img src="https://picsum.photos/seed/michigan/600/400" alt="Cảnh hồ Michigan với mặt nước và cây xanh" width="600" height="400">
+        <figcaption>Ảnh minh họa: Hồ Michigan</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://picsum.photos/seed/movie/600/400" alt="Poster phim giả tưởng đầy màu sắc neon" width="600" height="400">
+        <figcaption>Ảnh minh họa: Poster phim</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://picsum.photos/seed/laptop/600/400" alt="Hai chiếc laptop đặt cạnh nhau để so sánh" width="600" height="400">
+        <figcaption>Ảnh minh họa: So sánh laptop</figcaption>
+      </figure>
+    </section>
+
+    <section id="tai-nguyen">
+      <h2>Tài nguyên bên ngoài</h2>
+      <p>Bạn có thể tham khảo thêm tại:</p>
+      <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
+        W3C HTML Validator
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Trang web mẫu của tôi</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
